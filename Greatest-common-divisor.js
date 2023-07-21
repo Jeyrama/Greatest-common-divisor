@@ -5,3 +5,5 @@ The inputs x and y are always greater or equal to 1,
 so the greatest common divisor will always be an integer that is also greater or equal to 1.
 */
 
+
+// Solution
