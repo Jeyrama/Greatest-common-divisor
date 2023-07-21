@@ -17,3 +17,8 @@ function mygcd(x,y){
 const mygcd = (a, b) => b ? mygcd(b, a % b) : a;
 
 // or
+
+function mygcd(x, y) {
+  while(y) var t = y, y = x % y, x = t;
+  return x;
+}
