@@ -7,3 +7,7 @@ so the greatest common divisor will always be an integer that is also greater or
 
 
 // Solution
+
+function mygcd(x,y){
+  return y == 0 ? x : mygcd(y, x % y)
+}
